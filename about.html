@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="about.css"/>
+<title>About</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="translucent" />
+<link rel="apple-touch-startup-image" href="startup.png">
+<script src="scripts.js"></script>
+
+<script>
+    function hide_all_pars(par){
+        var i=0;            
+        for(i=0;i<=2;i++){
+            $('#par_'+i).fadeOut('slow');
+        }
+        $('#'+par).fadeIn('slow');
+    }
+	
+	$(window).load(function() {
+	$("#spinner").fadeOut("slow");
+})
+</script>
+
+<style>
+  p.more {
+    display: none;
+}
+</style>
+</head>
+
+<body>
+
+<div id="spinner"></div>
+<div id="tabs">
+	<h1 style="text-align:left; font-family: Century Gothic; font-weight:200;" >
+	<a href="index.html">Home </a>|
+	<a href="blog.html">Blog </a>|
+	<a href="about.html">About </a>
+
+	
+	<div id="social" style="display:inline;">
+<text style="font-size:10pt; font-weight:100;">
+		<a href="http://twitter.com/alextfife"><img src="./images/twit1.png" onmouseover="this.src='./images/twit2.png'" onmouseout="this.src='./images/twit1.png'" style="width:40px;"/>Twitter </a>
+		<a href="http://instagram.com/alextfife/"><img src="./images/ig.png" onmouseover="this.src='./images/ig2.png'" onmouseout="this.src='./images/ig.png'" style="width:40px;"/>Instagram </a>
+		<a href="http://steamcommunity.com/id/alextfife"><img src="./images/steam.png" onmouseover="this.src='./images/steam2.svg'" onmouseout="this.src='./images/steam.png'" style="width:40px;"/>Steam </a>
+		<a href="http://www.pinterest.com/alextfife"><img src="./images/pin.png" onmouseover="this.src='./images/pin2.png'" onmouseout="this.src='./images/pin.png'" style="width:40px;"/>Pinterest</a>
+		</text>		
+	
+	<!--	<img src="./images/projectxi.jpg" style=" width:400px; float: right; top:0; right:0; vertical-align:middle;">-->
+	</h1></div>
+</div>
+<div id="content">
+<div id="header"></div><br/>
+ 
+ <h1><a href="app.html">iPhone Web App ></a><text id="dec">Coming Soon</text></h1>
+ <p>iOS 2, 3, 4, 5, 6, & 7 has the ability to save the website to your home screen as an app. Just push the <img src="./images/ios-share.png" style="width:25px; height:20px; vertical-align:center;"> button. Saving the page as an app will allow you to visit the site straight from your homescreen and it will remove the address bar and options bar, giving you a full screen experience. This app also uses iOS 7 transparencies and formatting.</p>
+ <img src="./images/iphone_flat.jpg" style="margin-left:300px;">
+ <br/><br/>
+ <h1>Who made this?</h1>
+ <p>I coded this entire site using CSS3 and HTML5 along with some Javascript and JQuiery. This was made during downtime, and this was a project conducted all by myself.</p>
+ <br/><br/>
+ <h1>What will be posted here?</h1>
+ <p>I will post projects, thoughts, art, photos, and videos I personally edit. <br/><a href="legal.html#controm">See more on this ><a/></p>
+ <br/><br/>
+ 
+  <br/><br/>
+ 
+ <br/><br/><h1>Problems, glitches, or other commentary</h1>
+  <!-- begin htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(hcb_user.PAGE || ""+window.location), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end htmlcommentbox.com -->
+
+<div id="header"></div>
+</div>
+<!--End of "things that work"-->
+<div id="header"></div><br/>
+<div id="extra">
+	<img src="./images/ME.jpg" style="width:50%" class="prof">
+	<h2>Information</h2>
+	
+
+	
+<div id="footer">
+		<p>Developed, Owned, and Operated by Alex Fife &copy; 2014. All Rights Reserved. <a href="legal.html">Legal </a> | <a href="about.html#mission">Mission Statement </a> | 	<a href="blog.html">Blog <a>|
+			<a href="About.html">About </a>
+			<text id="date">Last Updated: </text> 
+		</p>
+</div>
+	
+</body>
+</html>

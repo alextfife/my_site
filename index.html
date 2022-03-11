@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<meta keywords="alextfife, alex fife, Alex Fife, crestview, florida, nwfsc, apple, creationist" />
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="translucent" />
+<link rel="apple-touch-startup-image" href="startup.png">
+		<script src="scripts.js"></script>
+			<style>
+  p.more {
+    display: none;
+}
+			</style>
+			<script>
+    function hide_all_pars(par){
+        var i=0;            
+        for(i=0;i<=2;i++){
+            $('#par_'+i).fadeOut('slow');
+        }
+        $('#'+par).fadeIn('slow');
+    }
+	
+	$(window).load(function() {
+	$("#spinner").fadeOut("slow");
+})
+			</script>
+	</head>
+
+	<body>
+<div id="spinner"></div>
+
+<div id="tabs">
+	<h1 style="text-align:left; font-family: Century Gothic; font-weight:200;" >
+	
+	<a href="blog.html">Blog <a>|
+	<a href="about.html">About </a>
+
+	
+	<div id="social" style="display:inline;">
+<text style="font-size:10pt; font-weight:100;">
+		<a href="http://twitter.com/alextfife"><img src="./images/twit1.png" onmouseover="this.src='./images/twit2.png'" onmouseout="this.src='./images/twit1.png'" style="width:40px;"/>Twitter </a>
+		<a href="http://instagram.com/alextfife/"><img src="./images/ig.png" onmouseover="this.src='./images/ig2.png'" onmouseout="this.src='./images/ig.png'" style="width:40px;"/>Instagram </a>
+		<a href="http://steamcommunity.com/id/alextfife"><img src="./images/steam.png" onmouseover="this.src='./images/steam2.svg'" onmouseout="this.src='./images/steam.png'" style="width:40px;"/>Steam </a>
+		<a href="http://www.pinterest.com/alextfife"><img src="./images/pin.png" onmouseover="this.src='./images/pin2.png'" onmouseout="this.src='./images/pin.png'" style="width:40px;"/>Pinterest</a>
+		</text>		
+	
+	<!--	<img src="./images/projectxi.jpg" style=" width:400px; float: right; top:0; right:0; vertical-align:middle;">-->
+	</h1></div>
+</div>
+	
+<div id="credit"><p>Developed, Owned, and Operated by Alex Fife &copy; 2014. All Rights Reserved. <br/> </p><hr>
+	</div>
+
+
+<div id="content">
+<!--
+Article Template
+<article>
+	<h3>
+	<text id="dec">where is it?</text>
+	<text id="date">date </text>
+	</h3>
+	
+<div id="sample_x">
+	<figure><img src="./images/image.filetype"></figure>
+    <section>"title"</section>
+    <br><a href="javascript: void(0)" id="RM" onClick="hide_all_pars('par_x')">read more</a>
+    <div id="par_x" style="display: none;">
+       <section>"the rest"</section>
+    </div>
+</div>
+</article>-->
+<br/>
+<h1>The Latest Post <br/><text style="font-size:10pt;">Go to the <text id="dec">place here</text> to comment. <b>Hover over images to expand them.</b></text></h1>
+<br/><!--Courasel for new information (4 slides)?? -->
+
+<article>
+	<h3>
+	<text id="dec">Blog</text>
+	<text id="date">March 8, 2014</text>
+	</h3>
+	
+<div id="sample_1"><!--NEEDS internet connection to work-->
+	<figure><img src="./images/back_grass.jpg"></figure>
+    <section>Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes.</section>
+    <br><a href="javascript: void(0)" id="RM" onClick="hide_all_pars('par_1')">read more</a>
+    <div id="par_1" style="display: none;">
+       <section>The ones who see things differently. They’re not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can’t do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.</section>
+    </div>
+</div>
+</article>
+   
+  <br/> <hr>	
+
+ <article>
+	<h3>
+		<text id="dec">Blog</text>
+		<text id="date">March 9, 2014</text>
+	</h3>
+	<div id="sample_2">
+    <figure><img src="./images/backdrop.jpg" alt="I'm an owl" /></figure>
+    <section><h4>Owls are a group of birds that belong to the order Strigiformes, constituting 200 extant bird of prey species. 
+	Most are solitary and nocturnal, with some exceptions (e.g. the Northern Hawk Owl). </section>   
+</h4>	
+	<br><a href="javascript: void(0)" id="RM"	onClick="hide_all_pars('par_2')">read more</a>
+	<div id="par_2" style="display:none;">
+	
+	<section>
+<video src="vid.mp4" controls>
+</video>
+
+	</section>
+	
+	</div></div>
+</article>
+   
+  <br/> <hr>	
+  
+  
+</div>
+
+<!--twitter feed and more go here below. Adjust width respectively-->
+<div id="extra">
+	<h2>Tweets below</h2>
+	<a class="twitter-timeline" href="https://twitter.com/alextfife" data-widget-id="450047599936933888">Tweets by @alextfife</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+	<!--<src="./images/net_load.gif" style="width:20%; margin-left:auto; margin-right:auto; display:block;"><!--display the laoding gif when the object has not loaded yet -->
+</div> 
+	
+<div id="footer">
+		<p>Developed, Owned, and Operated by Alex Fife &copy; 2014. All Rights Reserved. <a href="legal.html">Legal </a> | <a href="about.html#mission">Mission Statement </a> | 	<a href="blog.html">Blog <a>|
+	<a href="About.html">About </a>
+			<text id="date">Last Updated: </text> 
+		</p>
+		<hr>
+</div>	
+	
+</body>
+</html>

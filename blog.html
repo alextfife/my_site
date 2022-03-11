@@ -1,0 +1,186 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="rest.css"/>
+<title>Blog</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="translucent" />
+<link rel="apple-touch-startup-image" href="startup.png">
+<script src="scripts.js"></script>
+
+<script>
+    function hide_all_pars(par){
+        var i=0;            
+        for(i=0;i<=2;i++){
+            $('#par_'+i).fadeOut('slow');
+        }
+        $('#'+par).fadeIn('slow');
+    }
+	
+	$(window).load(function() {
+	$("#spinner").fadeOut("slow");
+})
+</script>
+
+<style>
+  p.more {
+    display: none;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="spinner"></div>
+<div id="tabs">	
+
+	<h1 style="text-align:left; font-family: Century Gothic; font-weight:200;" >
+	<a href="index.html">Home </a>|
+	<a href="blog.html">Blog </a>|
+	<a href="about.html">About </a>
+
+	
+	<div id="social" style="display:inline;">
+<text style="font-size:10pt; font-weight:100;">
+
+		<a href="http://twitter.com/alextfife"><img src="./images/twit1.png" onmouseover="this.src='./images/twit2.png'" onmouseout="this.src='./images/twit1.png'" style="width:40px;"/>Twitter </a>
+		<a href="http://instagram.com/alextfife/"><img src="./images/ig.png" onmouseover="this.src='./images/ig2.png'" onmouseout="this.src='./images/ig.png'" style="width:40px;"/>Instagram </a>
+		<a href="http://steamcommunity.com/id/alextfife"><img src="./images/steam.png" onmouseover="this.src='./images/steam2.svg'" onmouseout="this.src='./images/steam.png'" style="width:40px;"/>Steam </a>
+		<a href="http://www.pinterest.com/alextfife"><img src="./images/pin.png" onmouseover="this.src='./images/pin2.png'" onmouseout="this.src='./images/pin.png'" style="width:40px;"/>Pinterest</a>
+		</text>		
+	
+	<!--	<img src="./images/projectxi.jpg" style=" width:400px; float: right; top:0; right:0; vertical-align:middle;">-->
+	</h1></div>
+</div>
+<div id="content">
+ <!--
+Article Template
+<article>
+	<h3>
+	<text id="dec">where is it?</text>
+	<text id="date">date </text>
+	</h3>
+	
+<div id="sample_x">
+	<figure><img src="./images/image.filetype"></figure>
+    <section>"title"</section>
+    <br><a href="javascript: void(0)" id="RM" onClick="hide_all_pars('par_x')">read more</a>
+    <div id="par_x" style="display: none;">
+       <section>"the rest"</section>
+    </div>
+</div>
+</article>-->
+<div id="header"></div>
+<article>
+	<h3>
+	<text id="dec">Blog</text>
+	<text id="date">March 8, 2014</text>
+	<a href="javascript: void(0)" id="RM" onClick="hide_all_pars('par_1')">read more</a>
+	</h3>
+	
+<div id="sample_1"><!--NEEDS internet connection to work-->
+	<figure><img src="./images/back_grass.jpg" ></figure> <br>
+    <section>Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes.</section>
+    
+    <div id="par_1" style="display: none;">
+       <section>The ones who see things differently. They’re not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can’t do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.</section>
+    </div>
+</div>
+</article>
+
+<br/>
+
+<article>
+	<h3>
+		<text id="dec">Blog</text>
+		<text id="date">March 9, 2014</text>
+		<a href="javascript: void(0)" id="RM"	onClick="hide_all_pars('par_2')">read more</a>
+	</h3>
+	<div id="sample_2">
+    <figure><img src="./images/backdrop.jpg" alt="I'm an owl" style="float:left;
+max-width:80px;
+display:inline;"/></figure>
+    <section><h4>Owls are a group of birds that belong to the order Strigiformes, constituting 200 extant bird of prey species. 
+	Most are solitary and nocturnal, with some exceptions (e.g. the Northern Hawk Owl). </section>   
+</h4>	
+	
+	<div id="par_2" style="display:none;">
+	
+	<section>
+I like my swag just the way it is.
+
+	</section>
+	
+	</div></div>
+</article>
+<br/>
+<article>
+	<h3>
+		<text id="dec">New!</text>
+		<text id="date">March 9, 2014</text>
+		<a href="javascript: void(0)" id="RM"	onClick="hide_all_pars('par_3')">read more</a>
+	</h3>
+	<div id="sample_3">
+    <figure><img src="./images/backdrop.jpg" alt="I'm an owl" style="float:left;
+max-width:80px;
+display:inline;"/></figure>
+    <section><h4>Owls are a group of birds that belong to the order Strigiformes, constituting 200 extant bird of prey species. 
+	Most are solitary and nocturnal, with some exceptions (e.g. the Northern Hawk Owl). </section>   
+</h4>	
+	<div id="par_3" style="display:none;">
+	<section>
+I like my swag just the way it is.
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/shady/skin.css" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(""+window.location || hcb_user.PAGE), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24XCuvPFUTpuQgkG0futy9E%2F"+"&opts=16798&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); hcb_user.submit=""; </script>
+
+	</section>
+	</div></div>
+</article>
+
+<br/>
+
+<article>
+	<h3>
+		<text id="dec">New!</text>
+		<text id="date">March 9, 2014</text>
+		<a href="javascript: void(0)" id="RM"	onClick="hide_all_pars('par_4')">read more</a>
+	</h3>
+	<div id="sample_4">
+    <figure><img src="./images/backdrop.jpg" alt="I'm an owl" style="float:left;
+max-width:80px;
+display:inline;"/></figure>
+    <section><h4>Owls are a group of birds that belong to the order Strigiformes, constituting 200 extant bird of prey species. 
+	Most are solitary and nocturnal, with some exceptions (e.g. the Northern Hawk Owl). </section>   
+</h4>	
+	<div id="par_4" style="display:none;">
+	<section>
+Nothing here, but comment below anyways!
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/shady/skin.css" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(""+window.location || hcb_user.PAGE), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24XCuvPFUTpuQgkG0futy9E%2F"+"&opts=16798&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); hcb_user.submit=""; </script>
+
+	</section>
+	</div></div>
+</article>
+</div>
+<!--End of "things that work"-->
+<div id="header"></div><br/>
+<div id="extra" style="float:right;">
+	<a class="twitter-timeline" href="https://twitter.com/alextfife" data-widget-id="450047599936933888">Tweets by @alextfife</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div> 
+	
+<div id="footer">
+		<p>Developed, Owned, and Operated by Alex Fife &copy; 2014. All Rights Reserved. <a href="legal.html">Legal </a> | <a href="about.html#mission">Mission Statement </a> | 	<a href="blog.html">Blog <a>|
+			<a href="About.html">About </a>
+			<text id="date">Last Updated: </text> 
+		</p>
+</div>
+	
+</body>
+</html>

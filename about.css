@@ -1,0 +1,313 @@
+/* test.css */
+/*home page css ONLY */
+
+html,body{
+	/*font-family: sans-serif;*/
+	font-family:  'Pacifico', Helvetica, sans-serif;
+	color: #2b2b2b;
+	/*text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 2px 2px 0px rgba(0,0,0,0.05);*/
+	/*background-image: url('images/linen.png');*/
+	font-size:10pt;
+}
+
+  p.more {
+    display: none;
+}
+blockquote {
+font-family: 'times new roman', roman, ariel;
+font-size:12pt;
+}
+
+
+#tabs {
+	font-family:'Century Gothic', Helvetica, sans-serif;
+	background-color: white;
+	border-bottom-style: solid;
+	border-width:1px;
+	border-color: black;
+	width:100%;
+	position:fixed;
+	opacity:0.8	;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#tabs a {
+color:black;
+}
+
+#tabs a:hover {
+color:blue;
+}
+
+#tabs h1 {
+margin-top:0;
+margin-bottom:0;
+}
+
+#extra {
+background-color:white;
+float:right;
+width:30%;
+height:90%;
+
+}
+
+#extra img {
+max-width: 300px;
+}
+
+#content {
+	width:70%;
+	float:left;
+	height:auto;
+}
+
+
+
+.prof {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	border-radius:100px;
+}
+
+#dec { /*declerating where the full article + comments are */
+	background-color:white;
+	border: 1px  solid grey;
+	color:grey;
+	border-radius:5px;
+	width:100px;
+	text-align:center;
+	padding: 2px; /* use with the 'text' tag ONLY */
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.05);
+}
+
+article #dec { /*declerating where the full article + comments are */
+	background-color:#f1f1f1;
+	border: 1px  solid grey;
+	color:grey;
+	border-radius:5px;
+	width:100px;
+	text-align:center;
+	padding: 2px; /* use with the 'text' tag ONLY */
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.05);
+}
+
+#date { /*adds date to indiv. post */
+	background-color:white;
+	border: 1px  solid orange;
+	color:orange;
+	border-radius:5px;
+	width:100px;
+	text-align:center;
+	margin-left: 25px;
+	padding: 2px; /* use with the 'text' tag ONLY */
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.05);
+}
+
+article #date { /*adds date to indiv. post */
+	background-color:#f1f1f1;
+	border: 1px  solid orange;
+	color:orange;
+	border-radius:5px;
+	width:100px;
+	text-align:center;
+	margin-left: 25px;
+	padding: 2px; /* use with the 'text' tag ONLY */
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.05);
+}
+
+article h4 {
+	font-size:18pt;
+	font-weight:200;
+	text-align: right;
+	margin-left:250px;
+}
+
+article section {
+	
+}
+
+#content img {
+	background-color:white;
+
+	height:20%;
+}
+
+article img {
+	float:left;
+}
+
+#sample_1 section:first-of-type {
+	font-size:18pt;
+	font-weight:200;
+	text-align: right;
+	margin-left:250px;
+		text-align:right;
+}
+
+article section:first-of-type {
+	font-size:18pt;
+	font-weight:200;
+	text-align: right;
+	margin-left:250px;
+	text-align:right;
+}
+
+#RM {
+	background-color:white;
+	border: 1px  solid blue;
+	color:blue;
+	border-radius:5px;
+	width:100px;
+	text-align:center;
+	margin-left: 25px;
+	padding: 2px; /* use with the 'text' tag ONLY */
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.05);
+}
+
+#RM:hover {
+	background-color:#f1f1f1;
+	border: 1px  solid blue;
+	color:blue;
+	border-radius:5px;
+	width:100px;
+	text-align:center;
+	margin-left: 25px;
+	padding: 2px; /* use with the 'text' tag ONLY */
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.05);
+}
+
+
+
+article figure {
+float:left;	
+}
+
+#sample_1 a {
+text-align:center;
+}
+
+h2, p{
+	text-align:center;
+	font-weight:normal;
+	padding: 5px;
+}
+
+h2{
+	font-size:2em;
+}
+
+p{
+	font-size:1em;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+a { 
+	text-decoration:none;
+    color:#2a17b1; 
+}  
+
+a:hover {
+	text-decoration:underline;
+}
+
+#credit, #footer {
+	 font-size:80%;
+}
+
+#credit {
+	color:black;
+	}
+	
+#footer {
+color:#888888;
+}
+
+#header {
+   font-family:'Century Gothic', Helvetica, sans-serif;
+	background-color: none;
+	width:100%;
+	height:10%;
+}
+
+hr{
+	display:none;
+}
+
+/* blur affects
+p ,h1 ,h2 ,h3 ,a {
+
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    opacity: 0.99;
+    background-color:white;
+}
+*/
+#header  {
+    display:block;
+}
+
+h2, h1 {
+	text-align:center;
+	font-family:'Century Gothic';
+	font-weight:100;
+}
+
+article {
+	background-color:white;
+	padding:10px;
+	border: black;
+	display:block;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-width:1px;
+	min-height:200px;
+}
+
+
+
+figure {
+float:left;
+max-width:80px;
+display:inline;
+}
+
+section {
+margin-left:500px;
+}
+
+#social {
+	padding:10px;
+}
+#social img {
+border-style: none; 
+}
+
+#footer {
+width:100%;
+display:block;
+text-align:left;
+clear: both;
+bottom:0px;
+font-size:10pt;
+}
+
+
+#spinner {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/net_load.gif') 50% 50% no-repeat rgb(249,249,249);
+	content:"Loading. Please Wait";
+}

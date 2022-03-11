@@ -1,0 +1,66 @@
+/*iPhones and iPads*/
+
+
+/* for iphones with retina display*/
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+
+     html, body{
+	font-family:"ArielHebrew", Ariel; 
+	background-color:grey;
+	width:640px;
+	-webkit-text-size-adjust:auto;
+	-webkit-tap-highlight-color:red;
+	}
+     h1{
+	color:white;
+	}
+	
+
+#classes {/*formerly "side"*/
+		height:100%;
+		overflow:scroll;
+		float:left; 
+		
+		
+		} /* thomas why do you do it in a straight line (dolan y u do dis) */
+		
+#links{/*formerly "content"*/
+	
+	height:100%;
+	float:left;   
+	overflow: scroll;
+	border-right: 1px solid black;
+}
+
+.due {color:red;}
+#head {border-bottom: 1px solid red;
+	background-color:white;
+}
+#footer {clear: both; border-top: 1px solid black;}
+#nav {border-bottom: 1px solid black;}
+
+h2, p{
+	
+	font-weight:normal;
+}
+h2{
+	font-size:2em;
+}
+p{
+	font-size:1em;
+	
+}
+
+a { text-decoration:none;
+    color:#999; 
+	content:" >";
+
+} 
+
+
+
+
+}
+/* end of iphone rules */
+
+
